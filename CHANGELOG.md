@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/D1G1R/EE471_Playground/compare/v1.0.0...v1.0.1) (2026-06-04)
+
+
+### Bug Fixes
+
+* Readme file changed fix. ([4adfeeb](https://github.com/D1G1R/EE471_Playground/commit/4adfeebaf3ff064ed56cc9205389fd50ed30f7bb))
+* Readme file changed fix. ([e8e9ae1](https://github.com/D1G1R/EE471_Playground/commit/e8e9ae1d654fcf91b01123758187ae08205d0381))
+
 # 1.0.0 (2026-06-04)
 
 
