@@ -37,12 +37,11 @@ jobs:
 
       - name: Launch new version in background
         run: |
-          $action = New-ScheduledTaskAction -Execute "python" `
-            -Argument "manage.py runserver 0.0.0.0:8000" `
+          $action = New-ScheduledTaskAction -Execute "cmd.exe" `
+            -Argument "/c python manage.py runserver 0.0.0.0:8000 > C:\actions-runner\django_hata_logu.txt 2>&1" `
             -WorkingDirectory $env:GITHUB_WORKSPACE
 
           $trigger = New-ScheduledTaskTrigger -Once -At (Get-Date).AddSeconds(3)
-
           $settings = New-ScheduledTaskSettingsSet -ExecutionTimeLimit ([TimeSpan]::Zero)
 
           Register-ScheduledTask -TaskName "DjangoServer" `
@@ -51,6 +50,5 @@ jobs:
             -Settings $settings `
             -Force
 
-          Write-Host "Django sunucusu Task Scheduler ile baslatildi."
-          Write-Host "Workspace: $env:GITHUB_WORKSPACE"
+          Write-Host "Django sunucusu baslatildi, hatalar C:\actions-runner\django_hata_logu.txt dosyasina yazdiriliyor."
         shell: powershell
