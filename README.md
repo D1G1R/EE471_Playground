@@ -1,1 +1,1 @@
-This is a bug fix 4.
+This is a feature update.
