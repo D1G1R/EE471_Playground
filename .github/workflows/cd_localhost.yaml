@@ -22,6 +22,11 @@ jobs:
           python -m pip install django django-debug-toolbar python-dotenv
         shell: powershell
 
+      - name: Apply Database Migrations
+        run: |
+          python manage.py migrate
+        shell: powershell
+
       - name: Kill previously running instance
         continue-on-error: true
         run: |
