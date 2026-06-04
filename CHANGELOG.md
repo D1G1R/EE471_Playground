@@ -1,3 +1,10 @@
+## [2.1.7](https://github.com/D1G1R/EE471_Playground/compare/v2.1.6...v2.1.7) (2026-06-04)
+
+
+### Bug Fixes
+
+* add database migrations to cd pipeline ([4a65615](https://github.com/D1G1R/EE471_Playground/commit/4a6561504c517d51d9f58b8af68a073cea752c0c))
+
 ## [2.1.6](https://github.com/D1G1R/EE471_Playground/compare/v2.1.5...v2.1.6) (2026-06-04)
 
 
