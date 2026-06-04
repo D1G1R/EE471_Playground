@@ -1,3 +1,10 @@
+## [2.1.5](https://github.com/D1G1R/EE471_Playground/compare/v2.1.4...v2.1.5) (2026-06-04)
+
+
+### Bug Fixes
+
+* add django-debug-toolbar to dependencies ([511701f](https://github.com/D1G1R/EE471_Playground/commit/511701f7bcd27e4d511f0310e88ba89c7dac69e1))
+
 ## [2.1.4](https://github.com/D1G1R/EE471_Playground/compare/v2.1.3...v2.1.4) (2026-06-04)
 
 
