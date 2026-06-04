@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/D1G1R/EE471_Playground/compare/v2.1.0...v2.1.1) (2026-06-04)
+
+
+### Bug Fixes
+
+* change shell from pwsh to windows powershell ([48f86c0](https://github.com/D1G1R/EE471_Playground/commit/48f86c0eee9afb22196c173a69ec5cc304a3a2de))
+
 # [2.1.0](https://github.com/D1G1R/EE471_Playground/compare/v2.0.2...v2.1.0) (2026-06-04)
 
 
