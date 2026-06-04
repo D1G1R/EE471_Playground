@@ -1,3 +1,10 @@
+## [2.1.2](https://github.com/D1G1R/EE471_Playground/compare/v2.1.1...v2.1.2) (2026-06-04)
+
+
+### Bug Fixes
+
+* prevent runner from killing background server ([b81fdc1](https://github.com/D1G1R/EE471_Playground/commit/b81fdc1525450216cc2bead8f4e421ecd07add89))
+
 ## [2.1.1](https://github.com/D1G1R/EE471_Playground/compare/v2.1.0...v2.1.1) (2026-06-04)
 
 
