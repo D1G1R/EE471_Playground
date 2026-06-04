@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/D1G1R/EE471_Playground/compare/v1.0.2...v1.1.0) (2026-06-04)
+
+
+### Features
+
+* Readme file changed feature. ([fdf7490](https://github.com/D1G1R/EE471_Playground/commit/fdf749018b820b264837c8702a7c7a6602342704))
+
 ## [1.0.2](https://github.com/D1G1R/EE471_Playground/compare/v1.0.1...v1.0.2) (2026-06-04)
 
 
