@@ -1,3 +1,10 @@
+## [2.1.4](https://github.com/D1G1R/EE471_Playground/compare/v2.1.3...v2.1.4) (2026-06-04)
+
+
+### Bug Fixes
+
+* 2 ([9ed45d3](https://github.com/D1G1R/EE471_Playground/commit/9ed45d30c6b5dd24ca16c57afe13a2fdf3fe367f))
+
 ## [2.1.3](https://github.com/D1G1R/EE471_Playground/compare/v2.1.2...v2.1.3) (2026-06-04)
 
 
