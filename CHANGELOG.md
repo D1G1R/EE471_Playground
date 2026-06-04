@@ -1,3 +1,13 @@
+# [2.0.0](https://github.com/D1G1R/EE471_Playground/compare/v1.1.0...v2.0.0) (2026-06-04)
+
+
+* Merge pull request [#5](https://github.com/D1G1R/EE471_Playground/issues/5) from D1G1R/break/readme-file-changed ([1cca1b2](https://github.com/D1G1R/EE471_Playground/commit/1cca1b25ff172c2bc55b1d0106fc03b8b251b5cd))
+
+
+### BREAKING CHANGES
+
+* Readme file changed major.
+
 # [1.1.0](https://github.com/D1G1R/EE471_Playground/compare/v1.0.2...v1.1.0) (2026-06-04)
 
 
