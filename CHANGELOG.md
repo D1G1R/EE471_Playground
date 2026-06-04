@@ -1,3 +1,10 @@
+## [2.1.6](https://github.com/D1G1R/EE471_Playground/compare/v2.1.5...v2.1.6) (2026-06-04)
+
+
+### Bug Fixes
+
+* explicitly install missing dependencies for localhost cd ([78705be](https://github.com/D1G1R/EE471_Playground/commit/78705bed2ce40c8fd0a015966c1c76d421fbc44a))
+
 ## [2.1.5](https://github.com/D1G1R/EE471_Playground/compare/v2.1.4...v2.1.5) (2026-06-04)
 
 
