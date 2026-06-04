@@ -25,16 +25,32 @@ jobs:
       - name: Kill previously running instance
         continue-on-error: true
         run: |
+          Unregister-ScheduledTask -TaskName "DjangoServer" -Confirm:$false -ErrorAction SilentlyContinue
           $tcpConnections = Get-NetTCPConnection -LocalPort 8000 -ErrorAction SilentlyContinue
           if ($tcpConnections) {
               foreach ($conn in $tcpConnections) {
                   Stop-Process -Id $conn.OwningProcess -Force -ErrorAction SilentlyContinue
               }
           }
+          Start-Sleep -Seconds 2
         shell: powershell
 
       - name: Launch new version in background
         run: |
-          $env:RUNNER_TRACKING_ID = ""
-          Start-Process -FilePath "python" -ArgumentList "manage.py runserver" -WorkingDirectory $env:GITHUB_WORKSPACE -WindowStyle Hidden
+          $action = New-ScheduledTaskAction -Execute "python" `
+            -Argument "manage.py runserver 0.0.0.0:8000" `
+            -WorkingDirectory $env:GITHUB_WORKSPACE
+
+          $trigger = New-ScheduledTaskTrigger -Once -At (Get-Date).AddSeconds(3)
+
+          $settings = New-ScheduledTaskSettingsSet -ExecutionTimeLimit ([TimeSpan]::Zero)
+
+          Register-ScheduledTask -TaskName "DjangoServer" `
+            -Action $action `
+            -Trigger $trigger `
+            -Settings $settings `
+            -Force
+
+          Write-Host "Django sunucusu Task Scheduler ile baslatildi."
+          Write-Host "Workspace: $env:GITHUB_WORKSPACE"
         shell: powershell
