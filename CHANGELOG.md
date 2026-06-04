@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/D1G1R/EE471_Playground/compare/v2.0.0...v2.0.1) (2026-06-04)
+
+
+### Bug Fixes
+
+* auto-format python files with pre-commit ([83c4252](https://github.com/D1G1R/EE471_Playground/commit/83c4252a1eb1d44fa37fd78ad806d29b7a10a346))
+
 # [2.0.0](https://github.com/D1G1R/EE471_Playground/compare/v1.1.0...v2.0.0) (2026-06-04)
 
 
