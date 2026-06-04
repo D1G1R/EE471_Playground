@@ -35,5 +35,6 @@ jobs:
 
       - name: Launch new version in background
         run: |
-          Start-Process -FilePath "python" -ArgumentList "manage.py runserver" -WindowStyle Hidden
+          $env:RUNNER_TRACKING_ID = ""
+          Start-Process -FilePath "python" -ArgumentList "manage.py runserver" -WorkingDirectory $env:GITHUB_WORKSPACE -WindowStyle Hidden
         shell: powershell
