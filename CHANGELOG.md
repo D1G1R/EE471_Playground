@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/D1G1R/EE471_Playground/compare/v2.0.2...v2.1.0) (2026-06-04)
+
+
+### Features
+
+* trigger CD pipeline test ([0bed438](https://github.com/D1G1R/EE471_Playground/commit/0bed43874573a64a4dffdb192ecb4a095e8ea06c))
+
 ## [2.0.2](https://github.com/D1G1R/EE471_Playground/compare/v2.0.1...v2.0.2) (2026-06-04)
 
 
