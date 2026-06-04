@@ -1,3 +1,10 @@
+## [2.1.3](https://github.com/D1G1R/EE471_Playground/compare/v2.1.2...v2.1.3) (2026-06-04)
+
+
+### Bug Fixes
+
+* make background server window visible for debugging ([21092e3](https://github.com/D1G1R/EE471_Playground/commit/21092e326d235f4e2990f25dd73831ccd5d986a3))
+
 ## [2.1.2](https://github.com/D1G1R/EE471_Playground/compare/v2.1.1...v2.1.2) (2026-06-04)
 
 
